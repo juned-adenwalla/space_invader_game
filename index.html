@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Battle Ship | HTML5 Canvas & Javascript</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <canvas width="700px" style="background-image: url(files/bg.jpg);" height="500px" id="myCanvas"></canvas>
+            </div>
+            <div class="col-6">
+                <div class="points_board">
+                    <p class="points_text">Score : <a id="points"></a></p> 
+                </div>
+                <div class="power_board">
+                    <img src="files/car-battery.svg" alt="Power icon" style="width: 70px; border-radius: 12px; background-color: white; margin-top: -15px; margin-left: 10px;">
+                    <a id="fuel"></a>
+                </div>
+                <div class="power_board">
+                    <img src="files/clock-rotate-left.svg" alt="Power icon" style="width: 60px; border-radius: 12px; background-color: white; margin-top: 5px; margin-left: 10px;">
+                    <a id="time"></a>
+                </div>
+            </div>
+        </div>    
+    </div>
+</body>
+<script src="js/script.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>
